@@ -1,0 +1,31 @@
+
+    body {
+            background-color: #f2f0f0;
+            font-family: Monospace, 'Sans Serif';
+
+        }
+    
+    h1, h2, h3 {
+               
+                color: #f90404;
+            }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .recipe-names {
+                    font-family: Monospace;
+                    font-size: 30px;
+                    
+    }
+
+    
