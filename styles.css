@@ -10,8 +10,21 @@
                 color: #f90404;
             }
 
+    .main-title {
+                    text-align: center;
+                    color: #fa8744;
+                    
+    }  
+    
+    .page-heading {
+                    text-align: center;
+    }
+
     h1 {
         font-size: 40px;
+        
+    
+        
     }
 
     h2 {
@@ -22,10 +35,19 @@
         font-size: 25px;
     }
 
-    .recipe-names {
+    .recipe-names {                             /* this is on the index page */
                     font-family: Monospace;
                     font-size: 30px;
                     
     }
+
+    .food-image {
+                   display: block;
+                   margin-left:auto;
+                   margin-right: auto;
+                   width: 70%;
+    }
+
+    
 
     
