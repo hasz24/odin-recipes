@@ -48,6 +48,26 @@
                    
     }
 
+
+    /* this is the box for the 'my favourite 3' list */
+
+    .top-3-box {
+                    border: 2px solid red;
+    }
+
+    .top-3 {
+                border: 2px solid red;
+                text-align: center;
+                background-color: white;
+                margin: 10px;
+    }
+
+    .recipes {
+                    display: inline-block;
+                    border: 2px solid red;
+    }
+    
+
     
 
     
