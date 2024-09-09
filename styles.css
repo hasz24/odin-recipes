@@ -1,6 +1,6 @@
 
     body {
-            background-color: #f2f0f0;
+            background-color: #e9e5e5;
             font-family: Monospace, 'Sans Serif';
 
         }
@@ -52,21 +52,37 @@
     /* this is the box for the 'my favourite 3' list */
 
     .top-3-box {
-                    border: 2px solid red;
+                    
+                    margin: 0 auto;
+                    text-align: center;
+                    
     }
 
     .top-3 {
-                border: 2px solid red;
+               
                 text-align: center;
                 background-color: white;
                 margin: 10px;
     }
 
-    .recipes {
-                    display: inline-block;
-                    border: 2px solid red;
+    .recipe-names {
+                   
+                    margin: 0;
+                    padding: 10px;
+                    
+                   
+                                
     }
-    
+
+    .pizza, .lasagna, .brownies {
+                
+                padding:5px;
+                background-color: antiquewhite;
+                box-sizing: border-box;
+                margin: 0 auto;
+    }
+          
+            
 
     
 
