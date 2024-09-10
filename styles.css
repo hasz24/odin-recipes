@@ -74,6 +74,7 @@
                     background-color: white;
                     margin-left: 300px;
                     margin-right: 300px;
+                    margin-bottom: 50px;
                     
                    
                                 
@@ -88,7 +89,87 @@
     }
           
             
+        /* here i am testing out a flexbox */
+
+        .flex-container {
+                            display: flex;
+                            flex-direction: row;
+                            background: blueviolet;
+                            border: 2px blue solid;
+                            height: 200px;
+                            padding: 20px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 8px;
+
+                            margin-bottom: 100px;
+                          
+                    }
+    
+        .flex-container div {
+                                background: peachpuff;
+                                border: 4px solid brown;
+                                height: 100px;
+                                width: 250px;
+                                
+                                /*  flex: 1 1 0; */
+        }
+
+        .flex-container .two {
+                               flex-shrink: 0; 
+        }
+
+        /* below is the example flexbox on the index page */
+
+        /* Needs to be completed */
+
+        .flex-container-two {
+                                display: flex;
+                                flex-direction: column;
+                                background: rgb(183, 231, 110);
+                                border: 2px solid darkgreen;
+                                height: 500px;
+                                padding: 20px;
+                                justify-content: center;
+                                gap: 8px;
+                                
+                                
+    
+                        }
+        
+        .box-one {
+                    display: flex;
+                    background: blueviolet;
+                    border: 4px solid blue;
+                    height: 100px;
+                    flex: 1 1 auto;
+                                    
+             }
+
+        .child-box-one {
+                        background: peachpuff;
+                        border: 4px solid brown;
+                        height: 70px;
+
+
+        }
+
+        .box-two {
+
+                    background: lightcoral;
+                    border: 4px solid darkred;
+                    height: 100px;
+                    flex: 1 1 auto;
+            
+               }
+
+        .box-three {
+                     background: blueviolet;
+                     border: 4px solid blue;
+                     height: 100px;
+                     flex: 1 1 auto;
+        }
+
 
     
-
-    
+       
